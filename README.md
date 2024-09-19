@@ -9,18 +9,19 @@ Introduction to Backend Web Development for Co-Op Fall 2024
 - Install VSCode, kolo, django, sqlite viewer
 - Our first Django App
 
-## Week 2 - Why Django?/Routes/Static Files
-
-- Django takes a "batteries included approach"
-- Can serve static files
-
-## Week 3 - Function Based Views and Templating
+## Week 2 - Function Based Views 
 
 - What is a view?
-- HTTP GET/PUT/POST
+- What is a route?
+- Passing HTTP GET parameters
+- URL Parameter capturing
+
+## Week 3 - Static Files and Templating
+
+- What are static files?
 - What is a template?
 
-## Week 4 - ORM
+## Week 4 - ORM/Databases
 
 - What is a database?
 - What is an ORM?

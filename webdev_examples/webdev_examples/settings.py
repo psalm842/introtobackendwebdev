@@ -25,8 +25,7 @@ SECRET_KEY = 'django-insecure-kr+@1ft7s@xh2j)t1c&yu0q8qu^nlvi1g5g10d%%lx+jvnd-fd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ["*"]
 
 # Application definition
 
@@ -37,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'week2',
 ]
 
 MIDDLEWARE = [
@@ -47,7 +47,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'kolo.middleware.KoloMiddleware',
 ]
 
 ROOT_URLCONF = 'webdev_examples.urls'

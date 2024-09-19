@@ -34,6 +34,15 @@ sequenceDiagram
 
 # Our first Django App
 
+## Install VS Code
+[Download VS Code](https://code.visualstudio.com/download)
+
+## Install the "Python Extension Pack"
+![Python Extension Pack VS Code Extension](python-ext-pack.png)
+
+## Install Python
+[Download Python](https://www.python.org/downloads/)
+
 ## Install Django
 
 ```bash
