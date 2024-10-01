@@ -45,6 +45,8 @@ To do this we are going to add a new route to urls.py and a new function to view
     ```
     Notice this is very similar to our previous `sayHello` function, but it has one more input parameeter, `name`.
 
+1. Go to `http://127.0.0.1:8000/hello/Tim` (or put in your name) and you should now see "Hello Tim!"
+
 ## Exercise 2 - Say Hello with an HTML response
 
 ### HTML Recap
@@ -61,7 +63,7 @@ It can be styled with CSS which changes the appearance of html.
         return HttpResponse(f"<H1>Hello {name}!</H1>")
     ```
 
-1. Run the server and visit the /hello page
+1. Run your server and go to `http://127.0.0.1:8000/hello?name=Tim` (or put in your name) and you should now see "Hello Tim!"
 
     <img src="hello-world-html.png" width=300/>
 
@@ -99,6 +101,8 @@ So how do we solve this problem? Templates (and static files, such as css, which
     The render function takes 3 inputs, first is the request from the host, second is the path/name of an html file template, last is the context. We'll use the context in the next step. For now we are passing an empty **dictionary**. 
 
     For now, load the /hello page in your web browser and notice it still says Hello World! (It will ignore any name parameter passed into it).
+
+1. Go to `http://127.0.0.1:8000/hello?name=Tim` (or put in your name) and you should now see "Hello Tim!"
 
 ## Exercise 4 - Say hello with an HTML Template with Context
 

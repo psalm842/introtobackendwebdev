@@ -20,6 +20,7 @@ from hello import views as hello_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', hello_views.home),
     path('hello/', hello_views.sayHello),
     path('hello/<str:name>/', hello_views.sayHelloWithName),
 ]
