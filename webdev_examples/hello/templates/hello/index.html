@@ -3,6 +3,20 @@
         <title>My First Django Template</title>
     </head>
     <body>
-        <h1>Hello {{name}}!</h1>
+        <form action="/hello" method="get">
+            <label><b>Title:</b></label><br>
+            <input type="radio" name="title" value="Master">Master</input>
+            <br>
+            <input type="radio" name="title" value="Mr.">Mr.</input>
+            <br>
+            <input type="radio" name="title" value="Ms.">Ms.</input>
+            <br>
+            <input type="radio" name="title" value="Mrs.">Mrs.</input>
+            <br><br>
+            <label for="user_name">Your name:</label>
+            <input id="user_name" type="text" name="name" value="World">
+            <br>
+            <input type="submit">
+        </form>    
     </body>
 </html>
