@@ -5,7 +5,7 @@
 - A Django **project** is made up of one or more **apps**
 - each app is a self contained unit of functionality, such as our **hello** app
 - `manage.py` is created when `python -m django startproject` is called, it can then be used to start new **apps** within the project, e.g. `python manage.py startapp`
-    - don't forget to add your app to the **middleware** section in `settings.py`
+    - don't forget to add your app to the **INSTALLED_APPS** section in `settings.py`
 - The workflow for starting a new page is:
     1. Create the url in **urls.py** that calls a new view function
     1. Create the function that **urls.py** calls for that url in **views.py** that renders a template (remember to pass in any context needed!)

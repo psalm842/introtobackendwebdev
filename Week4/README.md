@@ -102,7 +102,7 @@ Web Browser--)User: Show new web page content
     ```html
     <form action="/hello" method="get">
         <label for="user_name">Your name:</label>
-        <input> id="user_name" type="text" name="name" value="World">
+        <input id="user_name" type="text" name="name" value="World">
         <br>
         <input type="submit">
     </form>
