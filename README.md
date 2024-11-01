@@ -27,18 +27,22 @@ Introduction to Backend Web Development for Co-Op Fall 2024
  - A simple form
  - Submitting Forms
 
-## Week 5 - ORM/Databases
+## Week 5 - Practice Exercises
+
+- Practice Exercises of the last 4 week's learning materials
+
+## Week 6 - ORM/Databases
 
 - What is a database?
 - What is an ORM?
 - Why do websites need one?
 - Create a django database 
 
-## Week 6 - Voting App in Django
+## Week 7 - Voting App in Django
 
 - What are static files?
 - Voting App Introduction
 - Creating a voting form
 - Saving the votes to the database
 
-## Week 7 - Hosting Django - Pythonanywhere.com
+## Week ? - Hosting Django - Pythonanywhere.com

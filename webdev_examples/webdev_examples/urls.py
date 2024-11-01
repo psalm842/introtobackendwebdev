@@ -17,10 +17,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from hello import views as hello_views
+from quizzer import views as quizzer_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', hello_views.home),
     path('hello/', hello_views.sayHello),
     path('hello/<str:name>/', hello_views.sayHelloWithName),
+    path('quiz', quizzer_views.quiz),
+    path('results', quizzer_views.results),
 ]
