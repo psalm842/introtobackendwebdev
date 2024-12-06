@@ -26,4 +26,5 @@ urlpatterns = [
     path('hello/<str:name>/', hello_views.sayHelloWithName),
     path('quiz', quizzer_views.quiz),
     path('results', quizzer_views.results),
+    path('history', quizzer_views.history),
 ]
